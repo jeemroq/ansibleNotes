@@ -42,8 +42,8 @@ git pull
 It will update the master branch (previously merged in central).
 ```
 git fetch -p
-git branch -d -r origin/<YourBranchName>
+git branch -d <YourBranchName>
 ```
-It will sync the deletion of the branch on local.
+It will synchronise the branch deletion from central and remove the local branch.
 
 You are now able to go back to the first step for the next feature ;)
